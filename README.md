@@ -55,7 +55,7 @@ namespace Yahtzee_Project
         static string CategoryMenu()
         {
             {
-                string menuCommand2 = "";//second menu command: This menu shows the different cateogories that can be selected. Once a cateogry is selected, it calculates the score for that category. 
+                string menuCommand2 = "";//second menu command: This menu shows the different categories that can be selected. Once a category is selected, it calculates the score for that category. 
                                          //We wanted to include a condition so that the user is restricted to one category per game. 
                                          //However, we had difficulty implementing this. Based on the sources we found, we could have used an if/then statement or readkey in order to restrict the key selected.  
                 Console.WriteLine("");
@@ -375,13 +375,13 @@ namespace Yahtzee_Project
                 Console.WriteLine("____________________________________________________________________________");
                 //Values from integers are shown within the scoresheet. 
 
-                if (i < 13) //Conditional statment where if the rounds are less than 13
+                if (i < 13) //Conditional statement where if the rounds are less than 13
                 {
                     Console.WriteLine("- press 'Enter' to roll the 5 dice to start the round");//then this message appears
                     Console.ReadLine();//Waits for the user to press enter
                 }
             }
-            Console.WriteLine("Congratulations! You have finsihed the game."); //Otherwise, the game is completed at the 13th round and the user is ideally able to see the prices of the Yahtzee game extracted from Amazon. 
+            Console.WriteLine("Congratulations! You have finished the game."); //Otherwise, the game is completed at the 13th round and the user is ideally able to see the prices of the Yahtzee game extracted from Amazon. 
             Console.WriteLine("You score is " + grandTotal + "!");
             Console.WriteLine("If you would like to purchase the game, the prices listed on Amazon are ");
 
