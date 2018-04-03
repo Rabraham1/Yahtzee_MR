@@ -391,7 +391,7 @@ namespace Yahtzee_Project
         //1. HtmlAgilityPack serves as a wrapper in C# that allows us to query the DOM and extract the Yahtzee price data
         //2. In line 386, "HtmlWeb" will load the HTML of the given URL using HTTP.
         //3. Line 389 includes the anchor tag element and class name from the DOM and it is converted to a list
-        //4. Line 392 will will loop through the list and call the "InnerText" prpperty of each item in the list
+        //4. Line 392 will will loop through the list and call the "InnerText" property of each item in the list
         //5. When the code below runs, it should extract all the different price options of the Yahtzee game from Amazon. This way, the user can see the different price options in case they want to purchase the game.
 
         // WEB SCRAPING CODE: 
